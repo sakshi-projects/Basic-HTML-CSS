@@ -32,27 +32,32 @@ body{
 }
 
 .hero{
+    height: 80vh;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
+    /* flex-direction: ; */
+    justify-content: space-evenly;
     align-items: center;
     background-color:rgb(0, 161, 153);
     text-align: center;
+    height :200px;
+    padding: 200px;
 
 }
-.hero h1{
+.right h1{
     font-size: 36px;
     color: azure;
-    margin-bottom: -15px;;
+    margin-bottom: -15px;
+    /* margin : 50px; */
 }
+    
 
-.hero p{
+.right p{
     font-size: 20px;
     color: rgb(227, 178, 178);
     margin-bottom: 20px;
 }
 
-.hero button{
+.right button{
     padding: 10px 20px;
     border: none;
     cursor: pointer;
@@ -63,8 +68,16 @@ body{
 
 }
 
-.hero button:hover{
+.right button:hover{
     background-color: rgb(162, 146, 177);
     color: rgb(89, 54, 122);
     transform: scale(1.1);
+}
+
+.left img{
+    display: flex;
+    height:300px;
+    width: 300px;
+    justify-content:space-between ;
+    border-radius: 70px;
 }
